@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'ONE-Mobile-POP';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "ONE-Mobile-POP";    
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    background-color: #167E56;
+    color: #ffffff;
+    height: 100vh;
+}
+
+.divver {
+    box-sizing: border-box;
+    height: 100vh;
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 50px;
+    color: #F5B608;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+p {
+    font-size: 24px;
+}
+
+#webcam-container {
+    margin-top: 64px;
+    border-radius: 8px;
+
+    canvas {
+        border-radius: 8px;
+    }
+}
+
+.desc {
+    text-align: center;
+    font-size: 20px;
+}
+
+#most-looklike {
+    margin-top: 48px;
+    background-color: #ffffff;
+    padding: 16px 32px;
+    border-radius: 8px;
+    color: #167E56;
+    font-size: 24px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#teacher_list {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .teacher {
+        font-size: 24px;
+        margin-top: 8px;
+        .name {
+            color: #F5B608;
+        }
+    }
+}
